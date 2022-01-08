@@ -1,3 +1,8 @@
+:root {
+    --navbar-hover-color: #1f2a68;
+  }
+  
+
 section {
     width: 700px;
     height: 480px;
@@ -29,14 +34,22 @@ li a{
     font-weight: bold;
     font-size: small;
     text-decoration: none;
-    color: greenyellow;
+    color: rgb(31, 194, 206);
     width: 80px;
-  
-
-li a:hover{
-    border:5px solid yellow;
-    padding:30px;
-    color:yellow;
-    font-weight:bold;
-    background-color:lightblue;
 }
+
+li a:hover {
+    color: rgb(42, 66, 17);
+    font-size: large;
+}
+
+.Nintendo:hover{
+    font-size: large;
+    background-image: url(Nintendo.jpg);
+}
+
+.Xbox:hover{
+    font-size: large;
+    background-image: url(XBox.jpg);
+}
+
